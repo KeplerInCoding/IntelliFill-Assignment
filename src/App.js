@@ -3,25 +3,18 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import ExamDetails from "./pages/ExamDetails";
-import add from "./assets/images/Ads.png"
 
 function App() {
   return (
-    <div>
-      <Navbar/>
-      <div>
-        <img width="980px" src={add} alt=""/>
-      </div>
-
+    <div className="App">
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/examDetails" element={<ExamDetails />} />
+        <Route path="/exam/:id" element={<ExamDetails />} />
       </Routes>
-
-      <Footer/>
-
+      <Footer />
     </div>
   );
 }
-
 export default App;
+
