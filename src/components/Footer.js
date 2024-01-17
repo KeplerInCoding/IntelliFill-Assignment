@@ -1,5 +1,7 @@
 import React from 'react';
 import logo from '../assets/images/mainLogo.png'
+import app from '../assets/images/app.png'
+import play from '../assets/images/play.png'
 
 const Footer = () => {
   return (
@@ -7,7 +9,7 @@ const Footer = () => {
       <div className="container mx-auto flex items-center justify-between">
         {/* Left side with logo and social links */}
         <div className="flex flex-col justify-center items-center space-x-4">
-          <img
+          <img className='flex-shrink-0'
             src={logo}
             alt="Logo"
             width="100px"
@@ -48,16 +50,16 @@ const Footer = () => {
         </div>
 
         {/* Right side with two small images */}
-        <div className="flex items-center space-x-4">
+        <div className="flex flex-col justify-center gap-2 items-center flex-shrink-0">
           <img
-            src="/path/to/your/image1.png"
+            src={app}
             alt="Image 1"
-            className="h-8 w-8"
+            width="153px"
           />
           <img
-            src="/path/to/your/image2.png"
+            src={play}
             alt="Image 2"
-            className="h-8 w-8"
+            width="153px"
           />
         </div>
       </div>
