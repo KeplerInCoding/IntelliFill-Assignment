@@ -3,7 +3,7 @@ import { interestedExams }  from '../Data'
 
 const Interested = () => {
   return (
-    <div className="flex flex-col gap-4 bg-white shadow-md p-6 rounded-md w-[420px]  border-[1.5px] border-gray-200">
+    <div className="flex flex-col gap-4 bg-white shadow-md p-6 rounded-md w-[420px] border-[1.5px] border-gray-200">
     {interestedExams.map((interestedExams, index) => (
       <div key={index} className=' border-b border-gray-300 pb-2'>
         <div className="flex items-center mb-1">
@@ -28,7 +28,7 @@ const Interested = () => {
           </div>
         </div>
 
-        <div className="flex items-center justify-end text-blue-500 text-[12px] font-semibold">
+        <div className="flex items-center justify-end text-blue-500 text-[12px]  font-semibold">
           <div>View details</div>
           <i className="fa-solid fa-angle-right ml-2"></i>
         </div>
