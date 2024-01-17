@@ -21,7 +21,7 @@ const Navbar = () => {
           <NavLink to="">About Us</NavLink>
           <NavLink to="">Contact Us</NavLink>
         </div>
-        <div className=' text-gray-500 rounded-full border border-blue-500 text-xs p-2 w-80 flex items-center gap-x-2'>
+        <div className=' text-gray-500 rounded-full border border-blue-500 text-xs p-2 md:w-80 flex items-center gap-x-2'>
             <i class="fas fa-search"></i>
             <input className='overflow-hidden' type="text" placeholder="Search exams here" />
         </div>
