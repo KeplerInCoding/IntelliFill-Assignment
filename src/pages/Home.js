@@ -13,24 +13,24 @@ const Home = () => {
           <img width="980px" src={ads} alt="ads" />
         </div>
 
-        <div className='md:w-5/6 w-screen flex text-xl font-bold py-6 place-content-between'>
+        <div className='md:w-5/6 w-screen flex text-xl px-5 font-bold py-6 place-content-between'>
           <div>Recommended Exams</div>
           <div className='text-blue-500'>See all</div>
         </div>
 
-        <div className=' overflow-x-scroll md:w-5/6 w-screen no-scrollbar'>
+        <div className=' overflow-x-scroll md:w-5/6 px-5 w-screen no-scrollbar'>
           <Cards exams={recommendedExams}/>
         </div>
 
-        <div className='md:w-5/6 w-screen flex text-xl font-bold py-6 place-content-between'>
+        <div className='md:w-5/6 w-screen flex text-xl px-5 font-bold py-6 place-content-between'>
           <div>Recent Exams</div>
           <div className='text-blue-500'>See all</div>
         </div>
-        <div className='md:w-5/6 w-screen pb-5'>
+        <div className='md:w-5/6 w-screen pb-5 px-5'>
         <Tags/>
         </div>
         
-        <div className=' overflow-x-scroll md:w-5/6 w-screen no-scrollbar'>
+        <div className=' overflow-x-scroll md:w-5/6 px-5 w-screen no-scrollbar'>
           <Cards exams={recentExams}/>
         </div>
       </div>
