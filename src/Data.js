@@ -11,7 +11,7 @@ const recommendedExams = [
       organization: 'National Testing Agency',
       participants: 'More than 20 Lakhs',
       fee: '₹1200',
-      tags: 'Engineering IIT PCM',
+      tags: ['Engineering', 'IIT', 'PCM'],
       logo: nta
     },
     {
@@ -19,7 +19,7 @@ const recommendedExams = [
       organization: 'Union Public Service Commission',
       participants: 'More than 15 Lakhs',
       fee: '₹1500',
-      tags: 'Engineering PCM',
+      tags: ['Engineering', 'PCM'],
       logo: upsc
     },
     {
@@ -27,7 +27,7 @@ const recommendedExams = [
       organization: 'Staff Selection Commission',
       participants: 'More than 10 Lakhs',
       fee: '₹1000',
-      tags: 'Engineering PCM',
+      tags: ['Engineering', 'PCM'],
       logo: ssc
     },
     {
@@ -35,7 +35,7 @@ const recommendedExams = [
         organization: 'National Testing Agency',
         participants: 'More than 20 Lakhs',
         fee: '₹1200',
-        tags: 'Engineering IIT PCM',
+        tags: ['Engineering', 'IIT', 'PCM'],
         logo: nta
       },
       {
@@ -43,7 +43,7 @@ const recommendedExams = [
         organization: 'Union Public Service Commission',
         participants: 'More than 15 Lakhs',
         fee: '₹1500',
-        tags: 'Engineering PCM',
+        tags: ['Engineering', 'PCM'],
         logo: upsc
       },
       {
@@ -51,7 +51,7 @@ const recommendedExams = [
         organization: 'Staff Selection Commission',
         participants: 'More than 10 Lakhs',
         fee: '₹1000',
-        tags: 'Engineering PCM',
+        tags: ['Engineering', 'PCM'],
         logo: ssc
       }
   ];
@@ -62,7 +62,7 @@ const recommendedExams = [
       organization: 'Vellore Institute of Technology',
       participants: 'More than 10 Lakhs',
       fee: '₹1500',
-      tags: 'Engineering PCM',
+      tags: ['Engineering', 'PCM'],
       logo: vit
     },
     {
@@ -70,7 +70,7 @@ const recommendedExams = [
       organization: 'SRMIST',
       participants: 'More than 10 Lakhs',
       fee: '₹1000',
-      tags: 'Engineering PCM',
+      tags: ['Engineering', 'PCM'],
       logo: srm
     },
     {
@@ -78,7 +78,7 @@ const recommendedExams = [
       organization: 'TSCHE',
       participants: 'More than 10 Lakhs',
       fee: '₹1000',
-      tags: 'Engineering PCM',
+      tags: ['Engineering', 'PCM'],
       logo: ts
     },
     {
@@ -86,7 +86,7 @@ const recommendedExams = [
         organization: 'Vellore Institute of Technology',
         participants: 'More than 10 Lakhs',
         fee: '₹1500',
-        tags: 'Engineering PCM',
+        tags: ['Engineering', 'PCM'],
         logo: vit
       },
       {
@@ -94,7 +94,7 @@ const recommendedExams = [
         organization: 'SRMIST',
         participants: 'More than 10 Lakhs',
         fee: '₹1000',
-        tags: 'Engineering PCM',
+        tags: ['Engineering', 'PCM'],
         logo: srm
       },
       {
@@ -102,7 +102,7 @@ const recommendedExams = [
         organization: 'TSCHE',
         participants: 'More than 10 Lakhs',
         fee: '₹1000',
-        tags: 'Engineering PCM',
+        tags: ['Engineering', 'PCM'],
         logo: ts
       }
   ];

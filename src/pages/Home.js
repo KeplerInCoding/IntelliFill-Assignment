@@ -11,12 +11,12 @@ const Home = () => {
       <div>
         <img width="980" src={ads} alt="ads" />
       </div>
-      <div className=' overflow-x-scroll p-5 md:w-5/6 w-screen'>
-        <div>Recommended Exams</div>
+      <div className=' overflow-x-scroll px-5 md:w-5/6 w-screen'>
+        <div className='font-bold py-5 text-xl'>Recommended Exams</div>
         <Cards exams={recommendedExams}/>
       </div>
-      <div>
-      <div>Recent Exams</div>
+      <div className=' overflow-x-scroll p-5 md:w-5/6 w-screen'>
+      <div className='font-bold py-5 text-xl'>Recent Exams</div>
       <Tags/>
         <Cards exams={recentExams}/>
       </div>
