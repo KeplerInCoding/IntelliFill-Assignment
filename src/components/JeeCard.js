@@ -3,9 +3,9 @@ import jee from '../assets/logo/nta.png'
 
 const JeeCard = () => {
   return (
-    <div className="flex-shrink-0 w-[500px] h-[230px] mr-4 shadow shadow-gray-300 mb-5 rounded-2xl flex flex-col items-center justify-center">
-      <div className="w-[460px] h-[190px] flex flex-col items-center">
-        <div className="w-[460px] flex place-content-between items-center pb-2 ">
+    <div className=" md:w-[520px] h-[196px]  mr-4 shadow shadow-gray-300 mb-5 py-3 rounded-2xl flex flex-col items-center justify-center">
+      <div className="md:w-[460px] w-[320px] h-[190px] flex flex-col items-center">
+        <div className="md:w-[460px] w-full flex place-content-between items-center pb-2 ">
           <div className='flex gap-5'>
 
           <img src={jee} alt="logo" className="w-[50px] h-[50px] border border-gray-500 rounded-xl" />
@@ -25,7 +25,7 @@ const JeeCard = () => {
         </div>
 
         <div className="flex flex-col place-content-between w-full h-full pt-2">
-            <div className='border-b-[1.5px] border-gray-200 pb-2 flex flex-col gap-3'>
+            <div className='border-b-[1.5px] border-gray-200 pb-2 flex flex-col gap-1'>
                 <div className="flex gap-2 my-1">
                     <div>
                     <i class="fa-regular fa-calendar-days"></i>
