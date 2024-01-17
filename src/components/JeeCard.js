@@ -3,7 +3,7 @@ import jee from '../assets/logo/nta.png'
 
 const JeeCard = () => {
   return (
-    <div className=" md:w-[520px] h-[196px]  mr-4 shadow shadow-gray-300 mb-5 py-3 rounded-2xl flex flex-col items-center justify-center">
+    <div className=" md:w-[520px] h-[196px]  mr-4 shadow bg-white shadow-gray-300 mb-5 py-3 rounded-2xl flex flex-col items-center justify-center">
       <div className="md:w-[460px] w-[320px] h-[190px] flex flex-col items-center">
         <div className="md:w-[460px] w-full flex place-content-between items-center pb-2 ">
           <div className='flex gap-5'>

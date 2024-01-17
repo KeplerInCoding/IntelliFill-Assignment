@@ -8,7 +8,7 @@ import { recentExams, recommendedExams } from '../Data';
 const Home = () => {
   return (
     <div>
-      <div className='flex flex-col justify-center items-center px-5'>
+      <div className='flex flex-col justify-center items-center px-5 mb-5'>
         <div className='md:w-5/6 pt-10 flex justify-center'>
           <img width="980px" src={ads} alt="ads" />
         </div>

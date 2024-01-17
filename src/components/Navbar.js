@@ -9,7 +9,7 @@ const Navbar = () => {
     setMenuOpen(!isMenuOpen);
   };
   return (
-    <div className='relative h-[100px] w-screen border-b-[1.5px] border-gray-300 flex justify-center items-center'>
+    <div className='relative h-[100px] w-screen border-b-[1.5px] bg-white border-gray-300 flex justify-center items-center'>
       <div className='flex place-content-between items-center p-3 w-full md:w-5/6 gap-5'>
         <div className='flex-shrink-0 px-'>
           <img width="100px" src={logo} alt="logo" />
