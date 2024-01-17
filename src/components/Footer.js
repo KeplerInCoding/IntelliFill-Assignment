@@ -1,27 +1,28 @@
 import React from 'react';
+import logo from '../assets/images/mainLogo.png'
 
 const Footer = () => {
   return (
     <footer className="bg-white py-8">
       <div className="container mx-auto flex items-center justify-between">
         {/* Left side with logo and social links */}
-        <div className="flex items-center space-x-4">
+        <div className="flex flex-col justify-center items-center space-x-4">
           <img
-            src="/path/to/your/logo.png"
+            src={logo}
             alt="Logo"
-            className="h-8 w-8"
+            width="100px"
           />
           <div className="flex space-x-4">
-            <a href="#" className="text-blue-500">
+            <a href="#" className="text-gray-500">
               <i className="fab fa-facebook"></i>
             </a>
-            <a href="#" className="text-blue-500">
+            <a href="#" className="text-gray-500">
               <i className="fab fa-instagram"></i>
             </a>
-            <a href="#" className="text-blue-500">
+            <a href="#" className="text-gray-500">
               <i className="fab fa-linkedin"></i>
             </a>
-            <a href="#" className="text-blue-500">
+            <a href="#" className="text-gray-500">
               <i className="fas fa-times"></i>
             </a>
           </div>
