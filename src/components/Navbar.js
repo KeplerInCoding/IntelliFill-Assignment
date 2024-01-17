@@ -10,7 +10,7 @@ const Navbar = () => {
   };
   return (
     <div className='relative h-[100px] w-screen border-b-[1.5px] bg-white border-gray-300 flex justify-center items-center'>
-      <div className='flex place-content-between items-center p-3 w-full md:w-5/6 gap-5'>
+      <div className='flex place-content-between items-center p-3 w-full md:w-5/6 gap-3'>
         <div className='flex-shrink-0 px-'>
           <img width="100px" src={logo} alt="logo" />
         </div>
@@ -25,7 +25,7 @@ const Navbar = () => {
             <i class="fas fa-search"></i>
             <input className='overflow-hidden' type="text" placeholder="Search exams here" />
         </div>
-        <div className='flex gap-4 text-blue-500'>
+        <div className='flex gap-2 text-blue-500'>
           <i class="fa-regular fa-bell"></i>
           <i class="fa-regular fa-user"></i>
         </div>
