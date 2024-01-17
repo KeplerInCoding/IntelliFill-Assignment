@@ -1,9 +1,10 @@
 import React from 'react'
 
+
 const Description = () => {
   return (
     <div>
-        <div className="md:w-[520px] w-fit bg-white shadow-md p-6 rounded-md">
+        <div className="md:w-[520px] mb-5 bg-white shadow-md p-6 rounded-md">
       <h2 className="text-lg font-bold mb-4">JEE Main Exam Description</h2>
 
       <div className="mb-4">

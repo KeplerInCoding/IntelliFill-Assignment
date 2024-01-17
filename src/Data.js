@@ -112,25 +112,29 @@ const recommendedExams = [
       name: 'BEEE 2023',
       organization: 'Bharat University',
       participants: 'More than 5 Lakhs',
-      fee: '₹1600'
+      fee: '₹1600',
+      logo: ssc
     },
     {
       name: 'TS EAMCET 2023',
       organization: 'TSCHE',
       participants: 'More than 15 Lakhs',
-      fee: '₹1000'
+      fee: '₹1000',
+      logo: ts
     },
     {
       name: 'SRMJEE 2023',
       organization: 'SRMST',
       participants: 'More than 10 Lakhs',
-      fee: '₹1000'
+      fee: '₹1000',
+      logo: srm
     },
     {
       name: 'VITJEE 2023',
       organization: 'Vellore Institute of Technology',
       participants: 'More than 10 Lakhs',
-      fee: '₹1500'
+      fee: '₹1500',
+      logo: vit
     }
   ];
   
