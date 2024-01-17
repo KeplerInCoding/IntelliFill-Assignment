@@ -1,11 +1,20 @@
-import React from 'react'
+import React from 'react';
 
 const Tags = () => {
-  return (
-    <div>
-        tags
-    </div>
-  )
-}
+  const tags = ['All', 'GATE', 'AP EAPCET', 'BITSAT', 'JEE Mains', 'JEE Advanced', 'TS EAMCET', 'TS EAMCET', 'Amity JEE'];
 
-export default Tags
+  return (
+    <div className='flex gap-5'>
+      {tags.map((tag, index) => (
+        <div
+          key={index}
+          className={`p-1 border-blue-500 px-3 rounded-full font-semibold border ${tag === 'All' ? 'text-white bg-blue-500 ' : 'text-blue-500'}`}
+        >
+          {tag}
+        </div>
+      ))}
+    </div>
+  );
+};
+
+export default Tags;

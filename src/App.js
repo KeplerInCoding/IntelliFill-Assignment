@@ -6,11 +6,11 @@ import ExamDetails from "./pages/ExamDetails";
 
 function App() {
   return (
-    <div className="App">
+    <div  className="overflow-x-hidden w-full">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/exam/:id" element={<ExamDetails />} />
+        <Route path="/exam" element={<ExamDetails />} />
       </Routes>
       <Footer />
     </div>

@@ -1,4 +1,5 @@
 import React from 'react'; 
+import { NavLink } from 'react-router-dom';
 
 const Cards = ({ exams }) => {
   return (
@@ -35,7 +36,13 @@ const Cards = ({ exams }) => {
                         ))}
                     </p>
                     <div className='flex items-center gap-5 text-blue-500 text-[12px] font-semibold'>
-                        <div>View details</div>
+                        <div>
+                            {exam.name==='JEE Mains 2023' ? (
+                                <NavLink to={`/exam`}>View details</NavLink>
+                                ) : (
+                                <div>View details</div>
+                            )}
+                        </div>
                         <i class="fa-solid fa-angle-right"></i>
                     </div>
                 </div>
