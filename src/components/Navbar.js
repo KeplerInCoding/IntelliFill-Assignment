@@ -15,7 +15,7 @@ const Navbar = () => {
           <img width="100px" src={logo} alt="logo" />
         </div>
         <div className=' font-semibold gap-5 flex-shrink-0 hidden md:flex'>
-          <NavLink to="/" end>Home</NavLink>
+          <NavLink className="text-blue-500" to="/" end>Home</NavLink>
           <NavLink to="">Result</NavLink>
           <NavLink to="">FAQ</NavLink>
           <NavLink to="">About Us</NavLink>
